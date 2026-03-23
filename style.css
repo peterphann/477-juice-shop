@@ -59,9 +59,17 @@ button:hover {
   background: #c73652;
 }
 
-#error {
+#status {
   color: #e94560;
   font-size: 13px;
   margin-bottom: 12px;
   min-height: 18px;
+}
+
+#status.success {
+  color: #1f7a3f;
+}
+
+#status.error {
+  color: #e94560;
 }
